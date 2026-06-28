@@ -66,16 +66,48 @@ img{
 width:220px;
 border-radius:18px;
 margin-top:10px;
+  img{
+  width:220px;
+  border-radius:18px;
+  margin-top:10px;
+}
+
+.flower{
+  position:fixed;
+  top:-50px;
+  font-size:25px;
+  animation:jatuh linear infinite;
+  pointer-events:none;
+}
+
+@keyframes jatuh{
+  0%{
+    transform:translateY(-50px) rotate(0deg);
+  }
+  100%{
+    transform:translateY(110vh) rotate(360deg);
+  }
+}
+
+</style>
 }</style>
 </head>
 
 <body>
 
 <header>
-<h1>🌸 Entertainment For You 🌸</h1>
-<p>Selamat datang di website spesial ini 💖</p>
+  <h1>🌸 Entertainment For You 🌸</h1>
 
-<button onclick="bukaWebsite()">Klik Aku 💌</button>
+<h2>Haiii 🌷</h2>
+
+<p>
+Aku punya sesuatu yang spesial buat kamu.
+<br><br>
+Website kecil ini kubuat khusus supaya kamu bisa senyum hari ini. 💖
+</p>
+
+<button onclick="bukaWebsite()">💌 Mulai</button>
+ 💌</button>
 </header>
 
 <div id="isi" class="hidden">
