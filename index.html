@@ -167,6 +167,16 @@ document.getElementById("hasil").innerHTML="😆 Belum tepat. Angka yang benar a
 }
 }
 </script>
-
+<script>
+for(let i=0;i<25;i++){
+  let bunga=document.createElement("div");
+  bunga.className="flower";
+  bunga.innerHTML="🌸";
+  bunga.style.left=Math.random()*100+"vw";
+  bunga.style.animationDuration=(3+Math.random()*5)+"s";
+  bunga.style.animationDelay=Math.random()*5+"s";
+  document.body.appendChild(bunga);
+}
+</script>
 </body>
 </html>
